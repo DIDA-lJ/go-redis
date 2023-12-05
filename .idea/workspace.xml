@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 5 th commit: go-redis: redis 配置类">
-      <change afterPath="$PROJECT_DIR$/interface/tcp/hadler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tcp/server.go" afterDir="false" />
+    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 5 th commit: go-redis: 简单 TCP Server 服务器的实现。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/tcp/hadler.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/tcp/hadler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,8 @@
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/code/go-redis/lib"
+    "last_opened_file_path": "D:/code/go-redis/lib",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +73,8 @@
     <MESSAGE value="The 3 th commit: go-redis 日志文件配置" />
     <MESSAGE value="The 4 th commit: go-redis: 异步等待配置" />
     <MESSAGE value="The 5 th commit: go-redis: redis 配置类" />
-    <option name="LAST_COMMIT_MESSAGE" value="The 5 th commit: go-redis: redis 配置类" />
+    <MESSAGE value="The 5 th commit: go-redis: 简单 TCP Server 服务器的实现。" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 5 th commit: go-redis: 简单 TCP Server 服务器的实现。" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
