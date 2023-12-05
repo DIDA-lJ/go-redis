@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 8 th commit: go-redis: main 方法编写">
-      <change afterPath="$PROJECT_DIR$/logs/go-redis-2023-12-05.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/echo.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/echo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/server.go" afterDir="false" />
+    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 9 th commit: go-redis: 代码适配">
+      <change afterPath="$PROJECT_DIR$/logs/go-redis-5055-125-30.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,34 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../golang" />
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="github/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -100,7 +124,8 @@
     <MESSAGE value="The 7 th commit: go-redis: main 方法初始创建。" />
     <MESSAGE value="The 7 th commit: go-redis: echo 响应类编写" />
     <MESSAGE value="The 8 th commit: go-redis: main 方法编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="The 8 th commit: go-redis: main 方法编写" />
+    <MESSAGE value="The 9 th commit: go-redis: 代码适配" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 9 th commit: go-redis: 代码适配" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
