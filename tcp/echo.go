@@ -45,7 +45,7 @@ func (c *EchoClient) Close() error {
 }
 
 // Handle echos received line to client
-func (h *EchoHandler) Handle(ctx context.Context, conn net.Conn) {
+func (h *EchoHandler) Handler(ctx context.Context, conn net.Conn) {
 	if h.closing.Get() {
 		// closing handler refuse new connection
 		_ = conn.Close()
