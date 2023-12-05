@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 5 th commit: go-redis: 简单 TCP Server 服务器的实现。">
+    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 7 th commit: go-redis: main 方法初始创建。">
+      <change afterPath="$PROJECT_DIR$/tcp/echo.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/tcp/hadler.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/tcp/hadler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,9 @@
     <MESSAGE value="The 4 th commit: go-redis: 异步等待配置" />
     <MESSAGE value="The 5 th commit: go-redis: redis 配置类" />
     <MESSAGE value="The 5 th commit: go-redis: 简单 TCP Server 服务器的实现。" />
-    <option name="LAST_COMMIT_MESSAGE" value="The 5 th commit: go-redis: 简单 TCP Server 服务器的实现。" />
+    <MESSAGE value="The 6 th commit: go-redis: 实现完善的 TCP 服务器。" />
+    <MESSAGE value="The 7 th commit: go-redis: main 方法初始创建。" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 7 th commit: go-redis: main 方法初始创建。" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
