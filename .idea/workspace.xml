@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 10 th commit: go-redis: 补充信息">
-      <change afterPath="$PROJECT_DIR$/aof/aof.ggo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/resp/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/resp/reply.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/go-redis-5057-125-55.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resp/reply/consts.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resp/reply/errors.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resp/reply/reply.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/tcp/hadler.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/tcp/hadler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/go-redis-5055-125-30.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/go-redis-5055-125-30.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/echo.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/echo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/server.go" afterDir="false" />
-    </list>
+    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 11 th commit: go-redis: 错误常量回复" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +134,8 @@
     <MESSAGE value="The 8 th commit: go-redis: main 方法编写" />
     <MESSAGE value="The 9 th commit: go-redis: 代码适配" />
     <MESSAGE value="The 10 th commit: go-redis: 补充信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="The 10 th commit: go-redis: 补充信息" />
+    <MESSAGE value="The 11 th commit: go-redis: 错误常量回复" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 11 th commit: go-redis: 错误常量回复" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
