@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 9 th commit: go-redis: 代码适配">
-      <change afterPath="$PROJECT_DIR$/logs/go-redis-5055-125-30.log" afterDir="false" />
+    <list default="true" id="47475809-cf44-4f66-924d-2b3a67f36b97" name="Changes" comment="The 10 th commit: go-redis: 补充信息">
+      <change afterPath="$PROJECT_DIR$/aof/aof.ggo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/resp/conn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/resp/reply.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/go-redis-5057-125-55.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp/reply/consts.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp/reply/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resp/reply/reply.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/tcp/hadler.go" beforeDir="false" afterPath="$PROJECT_DIR$/interface/tcp/hadler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/go-redis-5055-125-30.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/go-redis-5055-125-30.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/echo.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/echo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,29 +72,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "D:/code/go-redis/lib",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/go-redis/lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\go-redis\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build go-redis" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-redis" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,8 +104,18 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-redis" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-redis" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build go-redis" />
       </list>
     </recent_temporary>
@@ -125,7 +147,8 @@
     <MESSAGE value="The 7 th commit: go-redis: echo 响应类编写" />
     <MESSAGE value="The 8 th commit: go-redis: main 方法编写" />
     <MESSAGE value="The 9 th commit: go-redis: 代码适配" />
-    <option name="LAST_COMMIT_MESSAGE" value="The 9 th commit: go-redis: 代码适配" />
+    <MESSAGE value="The 10 th commit: go-redis: 补充信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="The 10 th commit: go-redis: 补充信息" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
