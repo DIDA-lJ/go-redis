@@ -18,7 +18,7 @@ Go-Redis 是一个用 Go 语言实现的 Redis 服务器（Godis）。
 - 并行引擎, 无需担心您的操作会阻塞整个服务器.
 
 
-# 运行 Go-Redis
+# 运行 Go-Redis（Godis）
 
 使用 windows 命令行启动 Godis 服务器
 
