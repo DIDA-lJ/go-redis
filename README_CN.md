@@ -44,11 +44,10 @@ peers localhost:7379,localhost:7389 // 集群中其它节点的地址
 self  localhost:6399 // 自身地址
 ```
 
-可以使用 node1.conf 和 node2.conf 配置文件，在本地启动一个双节点集群:
+可以使用 node1.conf 和 node2.conf 配置文件，在本地启动一个双节点集群,然后由于是windows，所以需要移动到不同的文件夹，将 node1.conf 或者 node 2.conf 修改成 redis.conf 才能启动:
 
 ```bash
-CONFIG=node1.conf ./godis-darwin &
-CONFIG=node2.conf ./godis-darwin &
+main.exe
 ```
 
 集群模式对客户端是透明的，只要连接上集群中任意一个节点就可以访问集群中所有数据：
