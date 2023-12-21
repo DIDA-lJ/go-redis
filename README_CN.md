@@ -1,4 +1,4 @@
-# Go-Redis
+# Go-Redis（Godis）
 
 Go-Redis 是一个用 Go 语言实现的 Redis 服务器（Godis）。
 
