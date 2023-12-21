@@ -30,7 +30,8 @@ Go-Redis 是一个用 Go 语言实现的 Redis 服务器。本项目旨在为尝
 
 godis 默认监听 0.0.0.0:6399，可以使用 redis-cli 或者其它 redis 客户端连接 Godis 服务器。
 
-![](https://i.loli.net/2021/05/15/7WquEgonzY62sZI.png)
+![image](https://github.com/DIDA-lJ/go-redis/assets/97254796/a6915fbc-8532-4df6-b964-78393e2ccbb5)
+
 
 godis 首先会从CONFIG环境变量中读取配置文件路径。若环境变量中未设置配置文件路径，则会尝试读取工作目录中的 redis.conf 文件。 若 redis.conf 文件不存在则会使用自带的默认配置。
 
