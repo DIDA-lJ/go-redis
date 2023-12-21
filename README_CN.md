@@ -75,23 +75,23 @@ Memory: 16 GB 2667 MHz DDR4
 redis-benchmark 测试结果:
 
 ```
-PING_INLINE: 87260.03 requests per second
-PING_BULK: 89206.06 requests per second
-SET: 85034.02 requests per second
-GET: 87565.68 requests per second
-INCR: 91157.70 requests per second
-LPUSH: 90334.23 requests per second
-RPUSH: 90334.23 requests per second
-LPOP: 90334.23 requests per second
-RPOP: 90415.91 requests per second
-SADD: 90909.09 requests per second
-HSET: 84104.29 requests per second
-SPOP: 82918.74 requests per second
-LPUSH (needed to benchmark LRANGE): 78247.26 requests per second
-LRANGE_100 (first 100 elements): 26406.13 requests per second
-LRANGE_300 (first 300 elements): 11307.10 requests per second
-LRANGE_500 (first 450 elements): 7968.13 requests per second
-LRANGE_600 (first 600 elements): 6092.73 requests per second
-MSET (10 keys): 65487.89 requests per second
+PING_INLINE: 87260.03 requests per second （87260.03 QPS）
+PING_BULK: 89206.06 requests per second （89206.06 QPS）
+SET: 85034.02 requests per second （85034.02 QPS）
+GET: 87565.68 requests per second（87565.68 QPS）
+INCR: 91157.70 requests per second（91157.70 QPS）
+LPUSH: 90334.23 requests per second（90334.23 QPS）
+RPUSH: 90334.23 requests per second（90334.23 QPS）
+LPOP: 90334.23 requests per second（90334.23 QPS）
+RPOP: 90415.91 requests per second（90415.91 QPS）
+SADD: 90909.09 requests per second（90909.09 QPS）
+HSET: 84104.29 requests per second（84104.29 QPS）
+SPOP: 82918.74 requests per second（82918.74 QPS）
+LPUSH (needed to benchmark LRANGE): 78247.26 requests per second（78247.26 QPS）
+LRANGE_100 (first 100 elements): 26406.13 requests per second（26406.13 QPS）
+LRANGE_300 (first 300 elements): 11307.10 requests per second（11307.10 QPS）
+LRANGE_500 (first 450 elements): 7968.13 requests per second（7968.13 QPS）
+LRANGE_600 (first 600 elements): 6092.73 requests per second（6092.73 QPS）
+MSET (10 keys): 65487.89 requests per second（65487.89 QPS）
 ```
 
