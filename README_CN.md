@@ -1,6 +1,6 @@
 # Go-Redis
 
-Go-Redis 是一个用 Go 语言实现的 Redis 服务器。本项目旨在为尝试使用 Go 语言开发高并发中间件的朋友提供一些参考。
+Go-Redis 是一个用 Go 语言实现的 Redis 服务器。
 
 关键功能:
 - 支持 string, list, hash, set, sorted set, bitmap 数据结构
