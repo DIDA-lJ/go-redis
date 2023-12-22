@@ -64,13 +64,13 @@ redis-cli -p 6399
 
 环境:
 
-Go version：1.17
+Go version：go1.20.10 windows/amd64
 
 System: Windows 11 
 
-CPU: 2.6GHz 8-Core Intel Core i5
+CPU: 1.70GHz 12-Core Intel Core i5-1240p
 
-Memory: 16 GB 2667 MHz DDR4
+Memory: 16 GB 4800 MHz LPDDR5
 
 redis-benchmark 测试结果:
 
