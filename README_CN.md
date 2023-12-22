@@ -66,9 +66,9 @@ redis-cli -p 6399
 
 Go version：1.17
 
-System: macOS Catalina 10.15.7
+System: Windows 11 
 
-CPU: 2.6GHz 6-Core Intel Core i7
+CPU: 2.6GHz 8-Core Intel Core i5
 
 Memory: 16 GB 2667 MHz DDR4
 
