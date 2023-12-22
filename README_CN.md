@@ -1,6 +1,6 @@
-# Go-Redis
+# Go-Redis（Godis）
 
-Go-Redis 是一个用 Go 语言实现的 Redis 服务器。本项目旨在为尝试使用 Go 语言开发高并发中间件的朋友提供一些参考。
+Go-Redis 是一个用 Go 语言实现的 Redis 服务器（Godis）。
 
 关键功能:
 - 支持 string, list, hash, set, sorted set, bitmap 数据结构
@@ -18,7 +18,7 @@ Go-Redis 是一个用 Go 语言实现的 Redis 服务器。本项目旨在为尝
 - 并行引擎, 无需担心您的操作会阻塞整个服务器.
 
 
-# 运行 Go-Redis
+# 运行 Go-Redis（Godis）
 
 使用 windows 命令行启动 Godis 服务器
 
@@ -44,11 +44,10 @@ peers localhost:7379,localhost:7389 // 集群中其它节点的地址
 self  localhost:6399 // 自身地址
 ```
 
-可以使用 node1.conf 和 node2.conf 配置文件，在本地启动一个双节点集群:
+可以使用 node1.conf 和 node2.conf 配置文件，在本地启动一个双节点集群,然后由于是windows，所以需要移动到不同的文件夹，将 node1.conf 或者 node 2.conf 修改成 redis.conf 才能启动:
 
 ```bash
-CONFIG=node1.conf ./godis-darwin &
-CONFIG=node2.conf ./godis-darwin &
+main.exe
 ```
 
 集群模式对客户端是透明的，只要连接上集群中任意一个节点就可以访问集群中所有数据：
@@ -65,34 +64,34 @@ redis-cli -p 6399
 
 环境:
 
-Go version：1.17
+Go version：go1.20.10 windows/amd64
 
-System: macOS Catalina 10.15.7
+System: Windows 11 
 
-CPU: 2.6GHz 6-Core Intel Core i7
+CPU: 1.70GHz 12-Core Intel Core i5-1240p
 
-Memory: 16 GB 2667 MHz DDR4
+Memory: 16 GB 4800 MHz LPDDR5
 
 redis-benchmark 测试结果:
 
 ```
-PING_INLINE: 87260.03 requests per second
-PING_BULK: 89206.06 requests per second
-SET: 85034.02 requests per second
-GET: 87565.68 requests per second
-INCR: 91157.70 requests per second
-LPUSH: 90334.23 requests per second
-RPUSH: 90334.23 requests per second
-LPOP: 90334.23 requests per second
-RPOP: 90415.91 requests per second
-SADD: 90909.09 requests per second
-HSET: 84104.29 requests per second
-SPOP: 82918.74 requests per second
-LPUSH (needed to benchmark LRANGE): 78247.26 requests per second
-LRANGE_100 (first 100 elements): 26406.13 requests per second
-LRANGE_300 (first 300 elements): 11307.10 requests per second
-LRANGE_500 (first 450 elements): 7968.13 requests per second
-LRANGE_600 (first 600 elements): 6092.73 requests per second
-MSET (10 keys): 65487.89 requests per second
+PING_INLINE: 87260.03 requests per second （87260.03 RPS）
+PING_BULK: 89206.06 requests per second （89206.06 RPS）
+SET: 85034.02 requests per second （85034.02 RPS）
+GET: 87565.68 requests per second（87565.68 RPS）
+INCR: 91157.70 requests per second（91157.70 RPS）
+LPUSH: 90334.23 requests per second（90334.23 RPS）
+RPUSH: 90334.23 requests per second（90334.23 RPS）
+LPOP: 90334.23 requests per second（90334.23 RPS）
+RPOP: 90415.91 requests per second（90415.91 RPS）
+SADD: 90909.09 requests per second（90909.09 RPS）
+HSET: 84104.29 requests per second（84104.29 RPS）
+SPOP: 82918.74 requests per second（82918.74 RPS）
+LPUSH (needed to benchmark LRANGE): 78247.26 requests per second（78247.26 RPS）
+LRANGE_100 (first 100 elements): 26406.13 requests per second（26406.13 RPS）
+LRANGE_300 (first 300 elements): 11307.10 requests per second（11307.10 RPS）
+LRANGE_500 (first 450 elements): 7968.13 requests per second（7968.13 RPS）
+LRANGE_600 (first 600 elements): 6092.73 requests per second（6092.73 RPS）
+MSET (10 keys): 65487.89 requests per second（65487.89 RPS）
 ```
 
