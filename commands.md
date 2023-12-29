@@ -1,4 +1,4 @@
-# Supported Commands
+# Supported Commands(目前支持指令)
 
 - Keys
     - del
